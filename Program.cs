@@ -72,13 +72,15 @@ namespace CS_Day1
                     MaxAge = n.Age;
                 }
             }
-            foreach(Member n in members){
-                if(MaxAge == n.Age){
-                Console.WriteLine("{0} {1} {2}", n.FirstName, n.LastName, n.Age);
-                break;
+            foreach (Member n in members)
+            {
+                if (MaxAge == n.Age)
+                {
+                    Console.WriteLine("{0} {1} {2}", n.FirstName, n.LastName, n.Age);
+                    break;
                 }
             }
-                                                               
+
             Console.WriteLine("\nCau 3: ");
             foreach (Member n in members)
             {
